@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: i46hoBcUHoxUjVnbDkekiusSGSbrSLTxTNzPlAhX1JM0JCs0blVVtcBu2R9sAlLqzEi4Rym6r7CsgYQ0fOFk2+yeQxvgbiLpzsBRU+0Nb5H7rPyLI98GxOB+J9xIDkYudK0XwQrODsEFS1UpVN0/LNrEBZiKnPwjfdzvr+hgO3N4RTdsSEl5hCsOEwzoBd4VDQSM2sXKXf6gicJRXm9rdPxC+Ape+RGPBcF+fpSwNd6vKv9i46tGBYMQr9AQvWehz4BRyd0uqqEiLG1n2rg3Y0qZT2cDBfYbwiSRMuYEHJFEc9e35mbr0bB/7TgpoGGCLCl6laeaxB8piOXyBQIG3uW5XlR9hlfYEnkPHZr07Bh6rWyMXQIDoKOi6ROZe0sbMQz7GHlfeHaKxMtFMFHCQr/mCgF8gizgp+t/By/w+qS6GyPpCRnIOqv/5SJEL8GSr565FRu9VvMSc4lT+AGHRBPVb1DsAPUIE0GKjfOl/UW4GoY7z3x5I52OKy5EUrZSZ3nSgm/o/FXaNQYZfWqvUHNrZNjMqDzcgSmK1rdh1ZPZi8bpxddcpLjK8lIwaRcSfEqMDoo2wJSVYOJakJZtCP/QaTdnpu/B8DW4CY8Icf/0azJVdbkPiSk9mkneqcdie4hccvPOvOM+XhSvjNxWJJQE5RNoE9LnFjH3pykWuxw=
+  app: morning-sierra-13519
+  on:
+    repo: deepbsd/blogapp-mongoose-citesting-challenge
